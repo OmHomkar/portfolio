@@ -1,0 +1,132 @@
+body{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+}
+.container{
+    display: grid;
+    grid-template-rows: 80px 600px 700px 200px ;
+    background-color: #021024;
+    color: white;
+    gap: 0px ;
+    text-align: center;
+    padding: 0;
+    margin: 0 auto;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%; 
+    background-color:#021024 ;
+    position:fixed;
+    border-bottom: 1px solid rgb(127, 187, 255);
+}
+#logo{
+    height: 80px;
+    margin-left: 20px;
+}
+.menu{
+    display: inline-block;
+    font-size: 18px;
+    margin: 10px;
+    margin-right: 40px;
+    text-decoration: none;
+    color: white;
+    transform: color 0.1s;
+}
+.menu:hover{
+    color: rgb(127, 187, 255);;
+}
+
+.heroimg{
+    width: 100%;
+    height: 600px;
+    object-fit: cover ;
+    position: relative;
+    top: 1px;
+}
+.text{
+    position: absolute;
+    top: 40%;
+    left: 32%;
+    text-align: center;
+    color: rgb(182, 216, 254);
+    font-size: 24px;
+}
+span{
+    color: white;
+}
+.button{
+    margin-top: 12px;
+    border-radius: 23px;
+    color: white;
+    background-color: #04aa6d;
+    padding: 10px 20px;
+    font-size: 12px;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 2px 3px #434344;
+}
+.button:hover{background-color: #04734a;}
+.button:active{
+    background-color: #025a39;
+    transform: translate(4px);
+}
+#About{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 30px 600px;
+    text-align: left;
+    font-size: 20px;
+}
+.left{
+    margin-left: 20px;
+}
+.lefth3{
+    margin-top: 14%;
+}
+.title{
+    margin-top: 100px;
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.me{
+    margin-top: 100px;
+}
+.skillLogo{
+    height: 350px;
+    margin-left: 15%;
+    margin-top: 50px;
+}
+footer{
+    background-color: rgb(127, 187, 255);
+}
+#Con{
+    display: flex;
+    flex-direction: column;
+}
+#Contact{
+    display: flex;
+    gap:80px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 1.5rem;
+    height: 200px;
+    margin: 0;
+}
+.link{
+    text-decoration: none;
+    color: white;
+}
+.link:hover{
+    color: #021024 ;
+}
+#copy{
+    text-align: end;
+    font-size: 0.9rem;
+    margin:0px 10px;
+}
+
